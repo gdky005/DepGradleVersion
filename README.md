@@ -1,5 +1,5 @@
 # DepGradleVersion
-依赖的第三方开源库的 gradle 版本。
+优秀的第三方开源库的 gradle 版本集合，它将众多开源项目整理后，把优质的开源项目的依赖整理出来，方便大家快速浏览和了解相关功能，以满足自己的需求。提升开发效率，以及闭坑。
 
 ## 在线版本
 ```
@@ -12,7 +12,7 @@ https://www.zkteam.cc/android/gradle/versions.gradle
 
 ```
 buildscript {
-    //apply from: 'versions.gradle'
+    //apply from: 'versions.gradle' //可以把工程中的 versions.gradle 文件放入项目根目录，然后直接使用下面的。
     apply from: 'https://www.zkteam.cc/android/gradle/versions.gradle' //推荐使用在线版本，更新及时，还能随时查看。
     ...
 }
